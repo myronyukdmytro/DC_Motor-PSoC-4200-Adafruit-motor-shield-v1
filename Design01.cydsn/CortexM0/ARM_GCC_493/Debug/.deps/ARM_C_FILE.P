@@ -1,0 +1,148 @@
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Clock.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Clock_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Clock_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Cm0Start.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/cyapicallbacks.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/CyFlash.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/CyLFClk.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/CyLib.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Data.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Data_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Data_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Enable.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Enable_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Enable_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Fix.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/Fix_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix_aliases.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/Fix_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/cyPm.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyPm.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/cyfitter_cfg.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/cymetadata.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/cyutils.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm2.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm2_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm2_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm3.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm3_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm3_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm4.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4_aliases.h : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm4_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm4_PM.c : 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/CortexM0/ARM_GCC_493/Debug/pwm_PM.o : C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm.h C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm_PM.c C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm_aliases.h 
+
+C:/Users/Dmytro/Documents/PSoC\ Creator/dc_motor/Design01.cydsn/Generated_Source/PSoC4/pwm_PM.c : 
+

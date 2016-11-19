@@ -1,0 +1,5 @@
+C:\Users\Dmytro\Documents\PSoC Creator\dc_motor\Design01.cydsn\Design01.cyprj|82a9e27d-ae51-4775-9b1e-1991e9752820
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|76985ca7-4a1f-4b8b-8368-7dbca1b94288
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|e9a9937b-ceb6-4a54-8ce5-0560a24a9ec6
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a0e5f8e5-5d63-4689-a111-d307fca18179
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e4ea6490-63e2-4719-b621-5232fec74427

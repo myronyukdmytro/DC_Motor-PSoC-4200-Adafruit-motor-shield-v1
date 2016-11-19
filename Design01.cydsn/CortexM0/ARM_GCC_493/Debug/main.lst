@@ -1,0 +1,910 @@
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 1
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.main,"ax",%progbits
+  18              		.align	2
+  19              		.global	main
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	main, %function
+  23              	main:
+  24              	.LFB34:
+  25              		.file 1 ".\\main.c"
+   1:.\main.c      **** 
+   2:.\main.c      **** #include <project.h>
+   3:.\main.c      **** #include <dc_motor_library.h>
+   4:.\main.c      **** #include <malloc.h>
+   5:.\main.c      **** 
+   6:.\main.c      **** int main()
+   7:.\main.c      **** {
+  26              		.loc 1 7 0
+  27              		.cfi_startproc
+  28 0000 00B5     		push	{lr}
+  29              		.cfi_def_cfa_offset 4
+  30              		.cfi_offset 14, -4
+  31 0002 83B0     		sub	sp, sp, #12
+  32              		.cfi_def_cfa_offset 16
+   8:.\main.c      ****     int8 *motor_values = (int8 *)malloc(8*sizeof(int8));
+  33              		.loc 1 8 0
+  34 0004 0820     		mov	r0, #8
+  35 0006 FFF7FEFF 		bl	malloc
+  36              	.LVL0:
+  37 000a 0190     		str	r0, [sp, #4]
+   9:.\main.c      ****     motor_values[0] = 0;
+  38              		.loc 1 9 0
+  39 000c 0023     		mov	r3, #0
+  40 000e 0370     		strb	r3, [r0]
+  10:.\main.c      ****     motor_values[1] = 0;
+  41              		.loc 1 10 0
+  42 0010 4370     		strb	r3, [r0, #1]
+  11:.\main.c      ****     motor_values[2] = 0;
+  43              		.loc 1 11 0
+  44 0012 8370     		strb	r3, [r0, #2]
+  12:.\main.c      ****     motor_values[3] = 0;
+  45              		.loc 1 12 0
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 2
+
+
+  46 0014 C370     		strb	r3, [r0, #3]
+  13:.\main.c      ****     motor_values[4] = 0;
+  47              		.loc 1 13 0
+  48 0016 0371     		strb	r3, [r0, #4]
+  14:.\main.c      ****     motor_values[5] = 0;
+  49              		.loc 1 14 0
+  50 0018 4371     		strb	r3, [r0, #5]
+  15:.\main.c      ****     motor_values[6] = 0;
+  51              		.loc 1 15 0
+  52 001a 8371     		strb	r3, [r0, #6]
+  16:.\main.c      ****     motor_values[7] = 0;
+  53              		.loc 1 16 0
+  54 001c C371     		strb	r3, [r0, #7]
+  17:.\main.c      ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  55              		.loc 1 17 0
+  56              	@ 17 ".\main.c" 1
+  57 001e 62B6     		CPSIE   i
+  58              	@ 0 "" 2
+  18:.\main.c      ****     pwm_Write(0);
+  59              		.loc 1 18 0
+  60              		.code	16
+  61 0020 0020     		mov	r0, #0
+  62 0022 FFF7FEFF 		bl	pwm_Write
+  63              	.LVL1:
+  19:.\main.c      ****     pwm2_Write(0);
+  64              		.loc 1 19 0
+  65 0026 0020     		mov	r0, #0
+  66 0028 FFF7FEFF 		bl	pwm2_Write
+  67              	.LVL2:
+  20:.\main.c      ****     pwm3_Write(0);
+  68              		.loc 1 20 0
+  69 002c 0020     		mov	r0, #0
+  70 002e FFF7FEFF 		bl	pwm3_Write
+  71              	.LVL3:
+  21:.\main.c      ****     pwm4_Write(0);
+  72              		.loc 1 21 0
+  73 0032 0020     		mov	r0, #0
+  74 0034 FFF7FEFF 		bl	pwm4_Write
+  75              	.LVL4:
+  22:.\main.c      ****     Data_Write(1);
+  76              		.loc 1 22 0
+  77 0038 0120     		mov	r0, #1
+  78 003a FFF7FEFF 		bl	Data_Write
+  79              	.LVL5:
+  23:.\main.c      ****     Clock_Write(0);
+  80              		.loc 1 23 0
+  81 003e 0020     		mov	r0, #0
+  82 0040 FFF7FEFF 		bl	Clock_Write
+  83              	.LVL6:
+  24:.\main.c      ****     Fix_Write(0);
+  84              		.loc 1 24 0
+  85 0044 0020     		mov	r0, #0
+  86 0046 FFF7FEFF 		bl	Fix_Write
+  87              	.LVL7:
+  25:.\main.c      ****     clear_motor_register(motor_values);
+  88              		.loc 1 25 0
+  89 004a 0198     		ldr	r0, [sp, #4]
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 3
+
+
+  90 004c FFF7FEFF 		bl	clear_motor_register
+  91              	.LVL8:
+  26:.\main.c      ****     activate_motor(&motor_values,1,0);
+  92              		.loc 1 26 0
+  93 0050 01A8     		add	r0, sp, #4
+  94 0052 0121     		mov	r1, #1
+  95 0054 0022     		mov	r2, #0
+  96 0056 FFF7FEFF 		bl	activate_motor
+  97              	.LVL9:
+  27:.\main.c      ****    // activate_motor(&motor_values,2,0);
+  28:.\main.c      ****     set_register(motor_values);
+  98              		.loc 1 28 0
+  99 005a 0198     		ldr	r0, [sp, #4]
+ 100 005c FFF7FEFF 		bl	set_register
+ 101              	.LVL10:
+ 102              	.L2:
+  29:.\main.c      ****     for(;;)
+  30:.\main.c      ****     {
+  31:.\main.c      ****         /* Place your application code here. */
+  32:.\main.c      ****     }
+ 103              		.loc 1 32 0 discriminator 1
+ 104 0060 FEE7     		b	.L2
+ 105              		.cfi_endproc
+ 106              	.LFE34:
+ 107              		.size	main, .-main
+ 108 0062 C046     		.text
+ 109              	.Letext0:
+ 110              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 111              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9.
+ 112              		.file 4 "Generated_Source\\PSoC4/pwm.h"
+ 113              		.file 5 "Generated_Source\\PSoC4/pwm2.h"
+ 114              		.file 6 "Generated_Source\\PSoC4/pwm3.h"
+ 115              		.file 7 "Generated_Source\\PSoC4/pwm4.h"
+ 116              		.file 8 "Generated_Source\\PSoC4/Data.h"
+ 117              		.file 9 "Generated_Source\\PSoC4/Clock.h"
+ 118              		.file 10 "Generated_Source\\PSoC4/Fix.h"
+ 119              		.file 11 "./dc_motor_library.h"
+ 120              		.file 12 "c:\\program files (x86)\\cypress\\psoc creator\\3.3\\psoc creator\\import\\gnu\\arm\\4.9
+ 121              		.section	.debug_info,"",%progbits
+ 122              	.Ldebug_info0:
+ 123 0000 6A020000 		.4byte	0x26a
+ 124 0004 0400     		.2byte	0x4
+ 125 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 126 000a 04       		.byte	0x4
+ 127 000b 01       		.uleb128 0x1
+ 128 000c 53010000 		.4byte	.LASF25
+ 129 0010 01       		.byte	0x1
+ 130 0011 9F000000 		.4byte	.LASF26
+ 131 0015 ED000000 		.4byte	.LASF27
+ 132 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 133 001d 00000000 		.4byte	0
+ 134 0021 00000000 		.4byte	.Ldebug_line0
+ 135 0025 02       		.uleb128 0x2
+ 136 0026 01       		.byte	0x1
+ 137 0027 06       		.byte	0x6
+ 138 0028 0A020000 		.4byte	.LASF0
+ 139 002c 02       		.uleb128 0x2
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 4
+
+
+ 140 002d 01       		.byte	0x1
+ 141 002e 08       		.byte	0x8
+ 142 002f 5D000000 		.4byte	.LASF1
+ 143 0033 02       		.uleb128 0x2
+ 144 0034 02       		.byte	0x2
+ 145 0035 05       		.byte	0x5
+ 146 0036 EC010000 		.4byte	.LASF2
+ 147 003a 02       		.uleb128 0x2
+ 148 003b 02       		.byte	0x2
+ 149 003c 07       		.byte	0x7
+ 150 003d 2B000000 		.4byte	.LASF3
+ 151 0041 02       		.uleb128 0x2
+ 152 0042 04       		.byte	0x4
+ 153 0043 05       		.byte	0x5
+ 154 0044 01020000 		.4byte	.LASF4
+ 155 0048 02       		.uleb128 0x2
+ 156 0049 04       		.byte	0x4
+ 157 004a 07       		.byte	0x7
+ 158 004b 6B000000 		.4byte	.LASF5
+ 159 004f 02       		.uleb128 0x2
+ 160 0050 08       		.byte	0x8
+ 161 0051 05       		.byte	0x5
+ 162 0052 35010000 		.4byte	.LASF6
+ 163 0056 02       		.uleb128 0x2
+ 164 0057 08       		.byte	0x8
+ 165 0058 07       		.byte	0x7
+ 166 0059 C4000000 		.4byte	.LASF7
+ 167 005d 03       		.uleb128 0x3
+ 168 005e 04       		.byte	0x4
+ 169 005f 05       		.byte	0x5
+ 170 0060 696E7400 		.ascii	"int\000"
+ 171 0064 02       		.uleb128 0x2
+ 172 0065 04       		.byte	0x4
+ 173 0066 07       		.byte	0x7
+ 174 0067 B7000000 		.4byte	.LASF8
+ 175 006b 04       		.uleb128 0x4
+ 176 006c 7D000000 		.4byte	.LASF9
+ 177 0070 02       		.byte	0x2
+ 178 0071 9801     		.2byte	0x198
+ 179 0073 2C000000 		.4byte	0x2c
+ 180 0077 04       		.uleb128 0x4
+ 181 0078 A8000000 		.4byte	.LASF10
+ 182 007c 02       		.byte	0x2
+ 183 007d 9B01     		.2byte	0x19b
+ 184 007f 25000000 		.4byte	0x25
+ 185 0083 02       		.uleb128 0x2
+ 186 0084 04       		.byte	0x4
+ 187 0085 04       		.byte	0x4
+ 188 0086 57000000 		.4byte	.LASF11
+ 189 008a 02       		.uleb128 0x2
+ 190 008b 08       		.byte	0x8
+ 191 008c 04       		.byte	0x4
+ 192 008d 83000000 		.4byte	.LASF12
+ 193 0091 02       		.uleb128 0x2
+ 194 0092 01       		.byte	0x1
+ 195 0093 08       		.byte	0x8
+ 196 0094 43010000 		.4byte	.LASF13
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 5
+
+
+ 197 0098 02       		.uleb128 0x2
+ 198 0099 04       		.byte	0x4
+ 199 009a 07       		.byte	0x7
+ 200 009b 2C010000 		.4byte	.LASF14
+ 201 009f 05       		.uleb128 0x5
+ 202 00a0 00000000 		.4byte	.LASF15
+ 203 00a4 03       		.byte	0x3
+ 204 00a5 D4       		.byte	0xd4
+ 205 00a6 64000000 		.4byte	0x64
+ 206 00aa 06       		.uleb128 0x6
+ 207 00ab 04       		.byte	0x4
+ 208 00ac 07       		.uleb128 0x7
+ 209 00ad E8000000 		.4byte	.LASF28
+ 210 00b1 01       		.byte	0x1
+ 211 00b2 06       		.byte	0x6
+ 212 00b3 5D000000 		.4byte	0x5d
+ 213 00b7 00000000 		.4byte	.LFB34
+ 214 00bb 62000000 		.4byte	.LFE34-.LFB34
+ 215 00bf 01       		.uleb128 0x1
+ 216 00c0 9C       		.byte	0x9c
+ 217 00c1 9C010000 		.4byte	0x19c
+ 218 00c5 08       		.uleb128 0x8
+ 219 00c6 DB000000 		.4byte	.LASF29
+ 220 00ca 01       		.byte	0x1
+ 221 00cb 08       		.byte	0x8
+ 222 00cc 9C010000 		.4byte	0x19c
+ 223 00d0 02       		.uleb128 0x2
+ 224 00d1 91       		.byte	0x91
+ 225 00d2 74       		.sleb128 -12
+ 226 00d3 09       		.uleb128 0x9
+ 227 00d4 0A000000 		.4byte	.LVL0
+ 228 00d8 A2010000 		.4byte	0x1a2
+ 229 00dc E6000000 		.4byte	0xe6
+ 230 00e0 0A       		.uleb128 0xa
+ 231 00e1 01       		.uleb128 0x1
+ 232 00e2 50       		.byte	0x50
+ 233 00e3 01       		.uleb128 0x1
+ 234 00e4 38       		.byte	0x38
+ 235 00e5 00       		.byte	0
+ 236 00e6 09       		.uleb128 0x9
+ 237 00e7 26000000 		.4byte	.LVL1
+ 238 00eb B7010000 		.4byte	0x1b7
+ 239 00ef F9000000 		.4byte	0xf9
+ 240 00f3 0A       		.uleb128 0xa
+ 241 00f4 01       		.uleb128 0x1
+ 242 00f5 50       		.byte	0x50
+ 243 00f6 01       		.uleb128 0x1
+ 244 00f7 30       		.byte	0x30
+ 245 00f8 00       		.byte	0
+ 246 00f9 09       		.uleb128 0x9
+ 247 00fa 2C000000 		.4byte	.LVL2
+ 248 00fe C8010000 		.4byte	0x1c8
+ 249 0102 0C010000 		.4byte	0x10c
+ 250 0106 0A       		.uleb128 0xa
+ 251 0107 01       		.uleb128 0x1
+ 252 0108 50       		.byte	0x50
+ 253 0109 01       		.uleb128 0x1
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 6
+
+
+ 254 010a 30       		.byte	0x30
+ 255 010b 00       		.byte	0
+ 256 010c 09       		.uleb128 0x9
+ 257 010d 32000000 		.4byte	.LVL3
+ 258 0111 D9010000 		.4byte	0x1d9
+ 259 0115 1F010000 		.4byte	0x11f
+ 260 0119 0A       		.uleb128 0xa
+ 261 011a 01       		.uleb128 0x1
+ 262 011b 50       		.byte	0x50
+ 263 011c 01       		.uleb128 0x1
+ 264 011d 30       		.byte	0x30
+ 265 011e 00       		.byte	0
+ 266 011f 09       		.uleb128 0x9
+ 267 0120 38000000 		.4byte	.LVL4
+ 268 0124 EA010000 		.4byte	0x1ea
+ 269 0128 32010000 		.4byte	0x132
+ 270 012c 0A       		.uleb128 0xa
+ 271 012d 01       		.uleb128 0x1
+ 272 012e 50       		.byte	0x50
+ 273 012f 01       		.uleb128 0x1
+ 274 0130 30       		.byte	0x30
+ 275 0131 00       		.byte	0
+ 276 0132 09       		.uleb128 0x9
+ 277 0133 3E000000 		.4byte	.LVL5
+ 278 0137 FB010000 		.4byte	0x1fb
+ 279 013b 45010000 		.4byte	0x145
+ 280 013f 0A       		.uleb128 0xa
+ 281 0140 01       		.uleb128 0x1
+ 282 0141 50       		.byte	0x50
+ 283 0142 01       		.uleb128 0x1
+ 284 0143 31       		.byte	0x31
+ 285 0144 00       		.byte	0
+ 286 0145 09       		.uleb128 0x9
+ 287 0146 44000000 		.4byte	.LVL6
+ 288 014a 0C020000 		.4byte	0x20c
+ 289 014e 58010000 		.4byte	0x158
+ 290 0152 0A       		.uleb128 0xa
+ 291 0153 01       		.uleb128 0x1
+ 292 0154 50       		.byte	0x50
+ 293 0155 01       		.uleb128 0x1
+ 294 0156 30       		.byte	0x30
+ 295 0157 00       		.byte	0
+ 296 0158 09       		.uleb128 0x9
+ 297 0159 4A000000 		.4byte	.LVL7
+ 298 015d 1D020000 		.4byte	0x21d
+ 299 0161 6B010000 		.4byte	0x16b
+ 300 0165 0A       		.uleb128 0xa
+ 301 0166 01       		.uleb128 0x1
+ 302 0167 50       		.byte	0x50
+ 303 0168 01       		.uleb128 0x1
+ 304 0169 30       		.byte	0x30
+ 305 016a 00       		.byte	0
+ 306 016b 0B       		.uleb128 0xb
+ 307 016c 50000000 		.4byte	.LVL8
+ 308 0170 2E020000 		.4byte	0x22e
+ 309 0174 09       		.uleb128 0x9
+ 310 0175 5A000000 		.4byte	.LVL9
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 7
+
+
+ 311 0179 3F020000 		.4byte	0x23f
+ 312 017d 92010000 		.4byte	0x192
+ 313 0181 0A       		.uleb128 0xa
+ 314 0182 01       		.uleb128 0x1
+ 315 0183 52       		.byte	0x52
+ 316 0184 01       		.uleb128 0x1
+ 317 0185 30       		.byte	0x30
+ 318 0186 0A       		.uleb128 0xa
+ 319 0187 01       		.uleb128 0x1
+ 320 0188 51       		.byte	0x51
+ 321 0189 01       		.uleb128 0x1
+ 322 018a 31       		.byte	0x31
+ 323 018b 0A       		.uleb128 0xa
+ 324 018c 01       		.uleb128 0x1
+ 325 018d 50       		.byte	0x50
+ 326 018e 02       		.uleb128 0x2
+ 327 018f 91       		.byte	0x91
+ 328 0190 74       		.sleb128 -12
+ 329 0191 00       		.byte	0
+ 330 0192 0B       		.uleb128 0xb
+ 331 0193 60000000 		.4byte	.LVL10
+ 332 0197 60020000 		.4byte	0x260
+ 333 019b 00       		.byte	0
+ 334 019c 0C       		.uleb128 0xc
+ 335 019d 04       		.byte	0x4
+ 336 019e 77000000 		.4byte	0x77
+ 337 01a2 0D       		.uleb128 0xd
+ 338 01a3 16020000 		.4byte	.LASF30
+ 339 01a7 0C       		.byte	0xc
+ 340 01a8 25       		.byte	0x25
+ 341 01a9 AA000000 		.4byte	0xaa
+ 342 01ad B7010000 		.4byte	0x1b7
+ 343 01b1 0E       		.uleb128 0xe
+ 344 01b2 9F000000 		.4byte	0x9f
+ 345 01b6 00       		.byte	0
+ 346 01b7 0F       		.uleb128 0xf
+ 347 01b8 3E000000 		.4byte	.LASF16
+ 348 01bc 04       		.byte	0x4
+ 349 01bd 33       		.byte	0x33
+ 350 01be C8010000 		.4byte	0x1c8
+ 351 01c2 0E       		.uleb128 0xe
+ 352 01c3 6B000000 		.4byte	0x6b
+ 353 01c7 00       		.byte	0
+ 354 01c8 0F       		.uleb128 0xf
+ 355 01c9 E1010000 		.4byte	.LASF17
+ 356 01cd 05       		.byte	0x5
+ 357 01ce 33       		.byte	0x33
+ 358 01cf D9010000 		.4byte	0x1d9
+ 359 01d3 0E       		.uleb128 0xe
+ 360 01d4 6B000000 		.4byte	0x6b
+ 361 01d8 00       		.byte	0
+ 362 01d9 0F       		.uleb128 0xf
+ 363 01da 48010000 		.4byte	.LASF18
+ 364 01de 06       		.byte	0x6
+ 365 01df 33       		.byte	0x33
+ 366 01e0 EA010000 		.4byte	0x1ea
+ 367 01e4 0E       		.uleb128 0xe
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 8
+
+
+ 368 01e5 6B000000 		.4byte	0x6b
+ 369 01e9 00       		.byte	0
+ 370 01ea 0F       		.uleb128 0xf
+ 371 01eb F6010000 		.4byte	.LASF19
+ 372 01ef 07       		.byte	0x7
+ 373 01f0 33       		.byte	0x33
+ 374 01f1 FB010000 		.4byte	0x1fb
+ 375 01f5 0E       		.uleb128 0xe
+ 376 01f6 6B000000 		.4byte	0x6b
+ 377 01fa 00       		.byte	0
+ 378 01fb 0F       		.uleb128 0xf
+ 379 01fc 14000000 		.4byte	.LASF20
+ 380 0200 08       		.byte	0x8
+ 381 0201 33       		.byte	0x33
+ 382 0202 0C020000 		.4byte	0x20c
+ 383 0206 0E       		.uleb128 0xe
+ 384 0207 6B000000 		.4byte	0x6b
+ 385 020b 00       		.byte	0
+ 386 020c 0F       		.uleb128 0xf
+ 387 020d 1F000000 		.4byte	.LASF21
+ 388 0211 09       		.byte	0x9
+ 389 0212 33       		.byte	0x33
+ 390 0213 1D020000 		.4byte	0x21d
+ 391 0217 0E       		.uleb128 0xe
+ 392 0218 6B000000 		.4byte	0x6b
+ 393 021c 00       		.byte	0
+ 394 021d 0F       		.uleb128 0xf
+ 395 021e AD000000 		.4byte	.LASF22
+ 396 0222 0A       		.byte	0xa
+ 397 0223 33       		.byte	0x33
+ 398 0224 2E020000 		.4byte	0x22e
+ 399 0228 0E       		.uleb128 0xe
+ 400 0229 6B000000 		.4byte	0x6b
+ 401 022d 00       		.byte	0
+ 402 022e 0F       		.uleb128 0xf
+ 403 022f 8A000000 		.4byte	.LASF23
+ 404 0233 0B       		.byte	0xb
+ 405 0234 04       		.byte	0x4
+ 406 0235 3F020000 		.4byte	0x23f
+ 407 0239 0E       		.uleb128 0xe
+ 408 023a 9C010000 		.4byte	0x19c
+ 409 023e 00       		.byte	0
+ 410 023f 0F       		.uleb128 0xf
+ 411 0240 48000000 		.4byte	.LASF24
+ 412 0244 0B       		.byte	0xb
+ 413 0245 05       		.byte	0x5
+ 414 0246 5A020000 		.4byte	0x25a
+ 415 024a 0E       		.uleb128 0xe
+ 416 024b 5A020000 		.4byte	0x25a
+ 417 024f 0E       		.uleb128 0xe
+ 418 0250 33000000 		.4byte	0x33
+ 419 0254 0E       		.uleb128 0xe
+ 420 0255 33000000 		.4byte	0x33
+ 421 0259 00       		.byte	0
+ 422 025a 0C       		.uleb128 0xc
+ 423 025b 04       		.byte	0x4
+ 424 025c 9C010000 		.4byte	0x19c
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 9
+
+
+ 425 0260 10       		.uleb128 0x10
+ 426 0261 07000000 		.4byte	.LASF31
+ 427 0265 0B       		.byte	0xb
+ 428 0266 06       		.byte	0x6
+ 429 0267 0E       		.uleb128 0xe
+ 430 0268 9C010000 		.4byte	0x19c
+ 431 026c 00       		.byte	0
+ 432 026d 00       		.byte	0
+ 433              		.section	.debug_abbrev,"",%progbits
+ 434              	.Ldebug_abbrev0:
+ 435 0000 01       		.uleb128 0x1
+ 436 0001 11       		.uleb128 0x11
+ 437 0002 01       		.byte	0x1
+ 438 0003 25       		.uleb128 0x25
+ 439 0004 0E       		.uleb128 0xe
+ 440 0005 13       		.uleb128 0x13
+ 441 0006 0B       		.uleb128 0xb
+ 442 0007 03       		.uleb128 0x3
+ 443 0008 0E       		.uleb128 0xe
+ 444 0009 1B       		.uleb128 0x1b
+ 445 000a 0E       		.uleb128 0xe
+ 446 000b 55       		.uleb128 0x55
+ 447 000c 17       		.uleb128 0x17
+ 448 000d 11       		.uleb128 0x11
+ 449 000e 01       		.uleb128 0x1
+ 450 000f 10       		.uleb128 0x10
+ 451 0010 17       		.uleb128 0x17
+ 452 0011 00       		.byte	0
+ 453 0012 00       		.byte	0
+ 454 0013 02       		.uleb128 0x2
+ 455 0014 24       		.uleb128 0x24
+ 456 0015 00       		.byte	0
+ 457 0016 0B       		.uleb128 0xb
+ 458 0017 0B       		.uleb128 0xb
+ 459 0018 3E       		.uleb128 0x3e
+ 460 0019 0B       		.uleb128 0xb
+ 461 001a 03       		.uleb128 0x3
+ 462 001b 0E       		.uleb128 0xe
+ 463 001c 00       		.byte	0
+ 464 001d 00       		.byte	0
+ 465 001e 03       		.uleb128 0x3
+ 466 001f 24       		.uleb128 0x24
+ 467 0020 00       		.byte	0
+ 468 0021 0B       		.uleb128 0xb
+ 469 0022 0B       		.uleb128 0xb
+ 470 0023 3E       		.uleb128 0x3e
+ 471 0024 0B       		.uleb128 0xb
+ 472 0025 03       		.uleb128 0x3
+ 473 0026 08       		.uleb128 0x8
+ 474 0027 00       		.byte	0
+ 475 0028 00       		.byte	0
+ 476 0029 04       		.uleb128 0x4
+ 477 002a 16       		.uleb128 0x16
+ 478 002b 00       		.byte	0
+ 479 002c 03       		.uleb128 0x3
+ 480 002d 0E       		.uleb128 0xe
+ 481 002e 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 10
+
+
+ 482 002f 0B       		.uleb128 0xb
+ 483 0030 3B       		.uleb128 0x3b
+ 484 0031 05       		.uleb128 0x5
+ 485 0032 49       		.uleb128 0x49
+ 486 0033 13       		.uleb128 0x13
+ 487 0034 00       		.byte	0
+ 488 0035 00       		.byte	0
+ 489 0036 05       		.uleb128 0x5
+ 490 0037 16       		.uleb128 0x16
+ 491 0038 00       		.byte	0
+ 492 0039 03       		.uleb128 0x3
+ 493 003a 0E       		.uleb128 0xe
+ 494 003b 3A       		.uleb128 0x3a
+ 495 003c 0B       		.uleb128 0xb
+ 496 003d 3B       		.uleb128 0x3b
+ 497 003e 0B       		.uleb128 0xb
+ 498 003f 49       		.uleb128 0x49
+ 499 0040 13       		.uleb128 0x13
+ 500 0041 00       		.byte	0
+ 501 0042 00       		.byte	0
+ 502 0043 06       		.uleb128 0x6
+ 503 0044 0F       		.uleb128 0xf
+ 504 0045 00       		.byte	0
+ 505 0046 0B       		.uleb128 0xb
+ 506 0047 0B       		.uleb128 0xb
+ 507 0048 00       		.byte	0
+ 508 0049 00       		.byte	0
+ 509 004a 07       		.uleb128 0x7
+ 510 004b 2E       		.uleb128 0x2e
+ 511 004c 01       		.byte	0x1
+ 512 004d 3F       		.uleb128 0x3f
+ 513 004e 19       		.uleb128 0x19
+ 514 004f 03       		.uleb128 0x3
+ 515 0050 0E       		.uleb128 0xe
+ 516 0051 3A       		.uleb128 0x3a
+ 517 0052 0B       		.uleb128 0xb
+ 518 0053 3B       		.uleb128 0x3b
+ 519 0054 0B       		.uleb128 0xb
+ 520 0055 49       		.uleb128 0x49
+ 521 0056 13       		.uleb128 0x13
+ 522 0057 11       		.uleb128 0x11
+ 523 0058 01       		.uleb128 0x1
+ 524 0059 12       		.uleb128 0x12
+ 525 005a 06       		.uleb128 0x6
+ 526 005b 40       		.uleb128 0x40
+ 527 005c 18       		.uleb128 0x18
+ 528 005d 9742     		.uleb128 0x2117
+ 529 005f 19       		.uleb128 0x19
+ 530 0060 01       		.uleb128 0x1
+ 531 0061 13       		.uleb128 0x13
+ 532 0062 00       		.byte	0
+ 533 0063 00       		.byte	0
+ 534 0064 08       		.uleb128 0x8
+ 535 0065 34       		.uleb128 0x34
+ 536 0066 00       		.byte	0
+ 537 0067 03       		.uleb128 0x3
+ 538 0068 0E       		.uleb128 0xe
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 11
+
+
+ 539 0069 3A       		.uleb128 0x3a
+ 540 006a 0B       		.uleb128 0xb
+ 541 006b 3B       		.uleb128 0x3b
+ 542 006c 0B       		.uleb128 0xb
+ 543 006d 49       		.uleb128 0x49
+ 544 006e 13       		.uleb128 0x13
+ 545 006f 02       		.uleb128 0x2
+ 546 0070 18       		.uleb128 0x18
+ 547 0071 00       		.byte	0
+ 548 0072 00       		.byte	0
+ 549 0073 09       		.uleb128 0x9
+ 550 0074 898201   		.uleb128 0x4109
+ 551 0077 01       		.byte	0x1
+ 552 0078 11       		.uleb128 0x11
+ 553 0079 01       		.uleb128 0x1
+ 554 007a 31       		.uleb128 0x31
+ 555 007b 13       		.uleb128 0x13
+ 556 007c 01       		.uleb128 0x1
+ 557 007d 13       		.uleb128 0x13
+ 558 007e 00       		.byte	0
+ 559 007f 00       		.byte	0
+ 560 0080 0A       		.uleb128 0xa
+ 561 0081 8A8201   		.uleb128 0x410a
+ 562 0084 00       		.byte	0
+ 563 0085 02       		.uleb128 0x2
+ 564 0086 18       		.uleb128 0x18
+ 565 0087 9142     		.uleb128 0x2111
+ 566 0089 18       		.uleb128 0x18
+ 567 008a 00       		.byte	0
+ 568 008b 00       		.byte	0
+ 569 008c 0B       		.uleb128 0xb
+ 570 008d 898201   		.uleb128 0x4109
+ 571 0090 00       		.byte	0
+ 572 0091 11       		.uleb128 0x11
+ 573 0092 01       		.uleb128 0x1
+ 574 0093 31       		.uleb128 0x31
+ 575 0094 13       		.uleb128 0x13
+ 576 0095 00       		.byte	0
+ 577 0096 00       		.byte	0
+ 578 0097 0C       		.uleb128 0xc
+ 579 0098 0F       		.uleb128 0xf
+ 580 0099 00       		.byte	0
+ 581 009a 0B       		.uleb128 0xb
+ 582 009b 0B       		.uleb128 0xb
+ 583 009c 49       		.uleb128 0x49
+ 584 009d 13       		.uleb128 0x13
+ 585 009e 00       		.byte	0
+ 586 009f 00       		.byte	0
+ 587 00a0 0D       		.uleb128 0xd
+ 588 00a1 2E       		.uleb128 0x2e
+ 589 00a2 01       		.byte	0x1
+ 590 00a3 3F       		.uleb128 0x3f
+ 591 00a4 19       		.uleb128 0x19
+ 592 00a5 03       		.uleb128 0x3
+ 593 00a6 0E       		.uleb128 0xe
+ 594 00a7 3A       		.uleb128 0x3a
+ 595 00a8 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 12
+
+
+ 596 00a9 3B       		.uleb128 0x3b
+ 597 00aa 0B       		.uleb128 0xb
+ 598 00ab 27       		.uleb128 0x27
+ 599 00ac 19       		.uleb128 0x19
+ 600 00ad 49       		.uleb128 0x49
+ 601 00ae 13       		.uleb128 0x13
+ 602 00af 3C       		.uleb128 0x3c
+ 603 00b0 19       		.uleb128 0x19
+ 604 00b1 01       		.uleb128 0x1
+ 605 00b2 13       		.uleb128 0x13
+ 606 00b3 00       		.byte	0
+ 607 00b4 00       		.byte	0
+ 608 00b5 0E       		.uleb128 0xe
+ 609 00b6 05       		.uleb128 0x5
+ 610 00b7 00       		.byte	0
+ 611 00b8 49       		.uleb128 0x49
+ 612 00b9 13       		.uleb128 0x13
+ 613 00ba 00       		.byte	0
+ 614 00bb 00       		.byte	0
+ 615 00bc 0F       		.uleb128 0xf
+ 616 00bd 2E       		.uleb128 0x2e
+ 617 00be 01       		.byte	0x1
+ 618 00bf 3F       		.uleb128 0x3f
+ 619 00c0 19       		.uleb128 0x19
+ 620 00c1 03       		.uleb128 0x3
+ 621 00c2 0E       		.uleb128 0xe
+ 622 00c3 3A       		.uleb128 0x3a
+ 623 00c4 0B       		.uleb128 0xb
+ 624 00c5 3B       		.uleb128 0x3b
+ 625 00c6 0B       		.uleb128 0xb
+ 626 00c7 27       		.uleb128 0x27
+ 627 00c8 19       		.uleb128 0x19
+ 628 00c9 3C       		.uleb128 0x3c
+ 629 00ca 19       		.uleb128 0x19
+ 630 00cb 01       		.uleb128 0x1
+ 631 00cc 13       		.uleb128 0x13
+ 632 00cd 00       		.byte	0
+ 633 00ce 00       		.byte	0
+ 634 00cf 10       		.uleb128 0x10
+ 635 00d0 2E       		.uleb128 0x2e
+ 636 00d1 01       		.byte	0x1
+ 637 00d2 3F       		.uleb128 0x3f
+ 638 00d3 19       		.uleb128 0x19
+ 639 00d4 03       		.uleb128 0x3
+ 640 00d5 0E       		.uleb128 0xe
+ 641 00d6 3A       		.uleb128 0x3a
+ 642 00d7 0B       		.uleb128 0xb
+ 643 00d8 3B       		.uleb128 0x3b
+ 644 00d9 0B       		.uleb128 0xb
+ 645 00da 27       		.uleb128 0x27
+ 646 00db 19       		.uleb128 0x19
+ 647 00dc 3C       		.uleb128 0x3c
+ 648 00dd 19       		.uleb128 0x19
+ 649 00de 00       		.byte	0
+ 650 00df 00       		.byte	0
+ 651 00e0 00       		.byte	0
+ 652              		.section	.debug_aranges,"",%progbits
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 13
+
+
+ 653 0000 1C000000 		.4byte	0x1c
+ 654 0004 0200     		.2byte	0x2
+ 655 0006 00000000 		.4byte	.Ldebug_info0
+ 656 000a 04       		.byte	0x4
+ 657 000b 00       		.byte	0
+ 658 000c 0000     		.2byte	0
+ 659 000e 0000     		.2byte	0
+ 660 0010 00000000 		.4byte	.LFB34
+ 661 0014 62000000 		.4byte	.LFE34-.LFB34
+ 662 0018 00000000 		.4byte	0
+ 663 001c 00000000 		.4byte	0
+ 664              		.section	.debug_ranges,"",%progbits
+ 665              	.Ldebug_ranges0:
+ 666 0000 00000000 		.4byte	.LFB34
+ 667 0004 62000000 		.4byte	.LFE34
+ 668 0008 00000000 		.4byte	0
+ 669 000c 00000000 		.4byte	0
+ 670              		.section	.debug_line,"",%progbits
+ 671              	.Ldebug_line0:
+ 672 0000 C2010000 		.section	.debug_str,"MS",%progbits,1
+ 672      02009601 
+ 672      00000201 
+ 672      FB0E0D00 
+ 672      01010101 
+ 673              	.LASF15:
+ 674 0000 73697A65 		.ascii	"size_t\000"
+ 674      5F7400
+ 675              	.LASF31:
+ 676 0007 7365745F 		.ascii	"set_register\000"
+ 676      72656769 
+ 676      73746572 
+ 676      00
+ 677              	.LASF20:
+ 678 0014 44617461 		.ascii	"Data_Write\000"
+ 678      5F577269 
+ 678      746500
+ 679              	.LASF21:
+ 680 001f 436C6F63 		.ascii	"Clock_Write\000"
+ 680      6B5F5772 
+ 680      69746500 
+ 681              	.LASF3:
+ 682 002b 73686F72 		.ascii	"short unsigned int\000"
+ 682      7420756E 
+ 682      7369676E 
+ 682      65642069 
+ 682      6E7400
+ 683              	.LASF16:
+ 684 003e 70776D5F 		.ascii	"pwm_Write\000"
+ 684      57726974 
+ 684      6500
+ 685              	.LASF24:
+ 686 0048 61637469 		.ascii	"activate_motor\000"
+ 686      76617465 
+ 686      5F6D6F74 
+ 686      6F7200
+ 687              	.LASF11:
+ 688 0057 666C6F61 		.ascii	"float\000"
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 14
+
+
+ 688      7400
+ 689              	.LASF1:
+ 690 005d 756E7369 		.ascii	"unsigned char\000"
+ 690      676E6564 
+ 690      20636861 
+ 690      7200
+ 691              	.LASF5:
+ 692 006b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 692      20756E73 
+ 692      69676E65 
+ 692      6420696E 
+ 692      7400
+ 693              	.LASF9:
+ 694 007d 75696E74 		.ascii	"uint8\000"
+ 694      3800
+ 695              	.LASF12:
+ 696 0083 646F7562 		.ascii	"double\000"
+ 696      6C6500
+ 697              	.LASF23:
+ 698 008a 636C6561 		.ascii	"clear_motor_register\000"
+ 698      725F6D6F 
+ 698      746F725F 
+ 698      72656769 
+ 698      73746572 
+ 699              	.LASF26:
+ 700 009f 2E5C6D61 		.ascii	".\\main.c\000"
+ 700      696E2E63 
+ 700      00
+ 701              	.LASF10:
+ 702 00a8 696E7438 		.ascii	"int8\000"
+ 702      00
+ 703              	.LASF22:
+ 704 00ad 4669785F 		.ascii	"Fix_Write\000"
+ 704      57726974 
+ 704      6500
+ 705              	.LASF8:
+ 706 00b7 756E7369 		.ascii	"unsigned int\000"
+ 706      676E6564 
+ 706      20696E74 
+ 706      00
+ 707              	.LASF7:
+ 708 00c4 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 708      206C6F6E 
+ 708      6720756E 
+ 708      7369676E 
+ 708      65642069 
+ 709              	.LASF29:
+ 710 00db 6D6F746F 		.ascii	"motor_values\000"
+ 710      725F7661 
+ 710      6C756573 
+ 710      00
+ 711              	.LASF28:
+ 712 00e8 6D61696E 		.ascii	"main\000"
+ 712      00
+ 713              	.LASF27:
+ 714 00ed 433A5C55 		.ascii	"C:\\Users\\Dmytro\\Documents\\PSoC Creator\\dc_moto"
+ 714      73657273 
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 15
+
+
+ 714      5C446D79 
+ 714      74726F5C 
+ 714      446F6375 
+ 715 011b 725C4465 		.ascii	"r\\Design01.cydsn\000"
+ 715      7369676E 
+ 715      30312E63 
+ 715      7964736E 
+ 715      00
+ 716              	.LASF14:
+ 717 012c 73697A65 		.ascii	"sizetype\000"
+ 717      74797065 
+ 717      00
+ 718              	.LASF6:
+ 719 0135 6C6F6E67 		.ascii	"long long int\000"
+ 719      206C6F6E 
+ 719      6720696E 
+ 719      7400
+ 720              	.LASF13:
+ 721 0143 63686172 		.ascii	"char\000"
+ 721      00
+ 722              	.LASF18:
+ 723 0148 70776D33 		.ascii	"pwm3_Write\000"
+ 723      5F577269 
+ 723      746500
+ 724              	.LASF25:
+ 725 0153 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 725      4320342E 
+ 725      392E3320 
+ 725      32303135 
+ 725      30333033 
+ 726 0186 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 726      20726576 
+ 726      6973696F 
+ 726      6E203232 
+ 726      31323230 
+ 727 01b9 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 727      66756E63 
+ 727      74696F6E 
+ 727      2D736563 
+ 727      74696F6E 
+ 728              	.LASF17:
+ 729 01e1 70776D32 		.ascii	"pwm2_Write\000"
+ 729      5F577269 
+ 729      746500
+ 730              	.LASF2:
+ 731 01ec 73686F72 		.ascii	"short int\000"
+ 731      7420696E 
+ 731      7400
+ 732              	.LASF19:
+ 733 01f6 70776D34 		.ascii	"pwm4_Write\000"
+ 733      5F577269 
+ 733      746500
+ 734              	.LASF4:
+ 735 0201 6C6F6E67 		.ascii	"long int\000"
+ 735      20696E74 
+ 735      00
+ 736              	.LASF0:
+ARM GAS  C:\Users\Dmytro\AppData\Local\Temp\ccxwN6PE.s 			page 16
+
+
+ 737 020a 7369676E 		.ascii	"signed char\000"
+ 737      65642063 
+ 737      68617200 
+ 738              	.LASF30:
+ 739 0216 6D616C6C 		.ascii	"malloc\000"
+ 739      6F6300
+ 740              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
