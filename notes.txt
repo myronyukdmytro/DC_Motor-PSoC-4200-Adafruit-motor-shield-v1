@@ -1,0 +1,1 @@
+This is project for motor control with Adafruit motor shield and CY8KIT-4200. Projct tested with two DC-5V motors .
